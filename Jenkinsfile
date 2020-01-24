@@ -17,6 +17,7 @@ pipeline {
 			steps {
 				bat 'echo hello lee'
 				bat 'hostname'
+				bat 'dir C:/'
 				bat 'echo %CD%'
 				bat 'wmic logicaldisk get caption,providername,drivetype,volumename'
 
